@@ -1,0 +1,15 @@
+# secret API key - never upload
+.env
+
+# Python virtual environment (huge, everyone makes their own)
+venv/
+
+# saved books / vector database (rebuilt by uploading PDFs)
+vector_db/
+
+# your PDFs
+*.pdf
+
+# Python cache files
+__pycache__/
+*.pyc
